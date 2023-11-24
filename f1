@@ -10,4 +10,4 @@ they are three type of cron jobs in jenkines
 ex) schedule time is after every min completion code is push to jenkines
 2)poc scm : It means , with in the schedule time if any changes in code than only push to jenkines
 ex) schedule time is set every one min, if code is change in git repo then only push to jenkines
-3)webhook : it means, when every code changed in git repo then only oush to jenkines
+3)webhook : it means, when every code changed in git repo then only run the jenkines job
