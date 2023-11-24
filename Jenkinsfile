@@ -6,14 +6,14 @@ pipeline
         stage ('git hub url')
         {
             steps {
-             git branch: 'main', url: 'https://github.com/saisuresh8179/Dynamic-application.git'
-            }
+                  sh ''' echo "hello world" '''
+             }
         }
         
         stage ('mvn package')
         {
             steps {
-                sh ''' mvn clean install '''   
+                sh ''' echo "hello world" '''   
             }
             
         }
